@@ -1,0 +1,547 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1681327836193527, "dur": 604273, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681327836193552, "dur": 2233, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681327836195787, "dur": 66812, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681327836262602, "dur": 391567, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681327836654171, "dur": 132605, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681327836786778, "dur": 11022, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681327836798407, "dur": 17, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1681327836521082, "dur": 117709, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681327836522060, "dur": 45175, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681327836623329, "dur": 4716, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681327836628048, "dur": 10717, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681327836628685, "dur": 9264, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681327836643078, "dur": 1245, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681327836642295, "dur": 2047, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681327836798527, "dur": 292, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1681327836709292, "dur":1157, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681327836710454, "dur":52, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1681327836710515, "dur":14, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1681327836710529, "dur":500, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1681327836711078, "dur":591, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681327836711669, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681327836770944, "dur":400, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681327836771344, "dur":36, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681327836771380, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681327836771385, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681327836771394, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681327836771397, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681327836771407, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681327836771411, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681327836771420, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681327836771422, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681327836771430, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681327836771433, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681327836771441, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681327836771444, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681327836771451, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681327836771454, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681327836771468, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681327836771470, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681327836771477, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681327836771480, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681327836771489, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681327836771491, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681327836771499, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681327836771501, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681327836771509, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681327836771543, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681327836771575, "dur":2604, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1681327836711355, "dur":323, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681327836711680, "dur":5989, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681327836717680, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681327836717684, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681327836717849, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681327836717853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681327836719017, "dur":4916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681327836723935, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1681327836724056, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681327836724533, "dur":2684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1681327836727300, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681327836727430, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681327836727434, "dur":23767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681327836751295, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681327836751515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681327836751520, "dur":4060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681327836755648, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681327836755878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681327836755885, "dur":3264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681327836759239, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681327836759360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681327836759367, "dur":3304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681327836762779, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681327836762875, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681327836762881, "dur":3644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681327836766655, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1681327836766767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681327836766772, "dur":3621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1681327836770486, "dur":465, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681327836711509, "dur":194, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681327836711704, "dur":5967, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681327836717681, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1681327836717981, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681327836724413, "dur":1773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1681327836726277, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681327836726379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681327836727082, "dur":2037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681327836729200, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681327836729278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681327836729282, "dur":2288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681327836731651, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681327836731908, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681327836731913, "dur":2472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681327836734472, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681327836734554, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681327836734559, "dur":2949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681327836737614, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681327836737714, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681327836737722, "dur":2727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681327836740593, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681327836740736, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681327836740742, "dur":4466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681327836745397, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681327836745492, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681327836745498, "dur":2888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681327836748478, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681327836748584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681327836748592, "dur":3213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681327836751900, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681327836752149, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681327836752156, "dur":4756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681327836757043, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681327836757136, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681327836757140, "dur":3643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681327836760903, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681327836761000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681327836761005, "dur":3552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681327836764687, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1681327836764793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681327836765036, "dur":2615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1681327836767743, "dur":3201, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681327836711415, "dur":269, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681327836711684, "dur":5993, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681327836717681, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1681327836718044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681327836727526, "dur":1462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1681327836729068, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681327836729161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681327836729167, "dur":2123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681327836731371, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681327836731459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681327836731496, "dur":2386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681327836733980, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681327836734110, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681327836734117, "dur":3059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681327836737281, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681327836737374, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681327836737379, "dur":2204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681327836739695, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681327836739784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681327836739790, "dur":3742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681327836743626, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681327836743743, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681327836743749, "dur":3057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681327836746899, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681327836747160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681327836747169, "dur":2899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681327836750237, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681327836750363, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681327836750370, "dur":4665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681327836755129, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681327836755335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681327836755340, "dur":3333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681327836758754, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681327836758835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681327836758842, "dur":3132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681327836762069, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681327836762241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681327836762272, "dur":5170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681327836767528, "dur":3419, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681327836711495, "dur":202, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681327836711697, "dur":5977, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681327836717679, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1681327836717935, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681327836720758, "dur":3752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1681327836724584, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1681327836724712, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681327836724821, "dur":3136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1681327836728061, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681327836728152, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681327836728670, "dur":2043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681327836730834, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681327836730936, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681327836730945, "dur":2989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681327836734028, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681327836734117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681327836734127, "dur":3091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681327836737301, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681327836737390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681327836737396, "dur":2179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681327836739682, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681327836739771, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681327836739777, "dur":3476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681327836743460, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681327836743550, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681327836743558, "dur":2862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681327836746533, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681327836746629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681327836746636, "dur":2964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681327836749688, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681327836749961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681327836749968, "dur":2561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681327836752628, "dur":332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681327836752963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681327836752971, "dur":4255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681327836757328, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681327836757420, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681327836757425, "dur":3407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681327836760931, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681327836761033, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681327836761039, "dur":3021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681327836764153, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1681327836764415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681327836765335, "dur":1754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1681327836767188, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1681327836767422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681327836767428, "dur":2848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1681327836770369, "dur":588, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681327836711578, "dur":136, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681327836711714, "dur":5960, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681327836717680, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1681327836717895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681327836720363, "dur":3610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1681327836724042, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1681327836724167, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681327836724713, "dur":2750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1681327836727555, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee.exe" }}
+,{ "pid":12345, "tid":5, "ts":1681327836727643, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681327836727647, "dur":2473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee.exe" }}
+,{ "pid":12345, "tid":5, "ts":1681327836730209, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681327836730310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681327836730317, "dur":1441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681327836731852, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681327836731949, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681327836731955, "dur":2323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681327836734381, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681327836734470, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681327836734476, "dur":2640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681327836737206, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681327836737306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681327836737312, "dur":2456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681327836739851, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681327836739919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681327836739925, "dur":3420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681327836743437, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681327836743525, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681327836743531, "dur":3071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681327836746692, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681327836746784, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681327836746791, "dur":2846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681327836749701, "dur":669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681327836750374, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681327836750381, "dur":3423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681327836753871, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681327836754034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681327836754039, "dur":3935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681327836758036, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681327836758096, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681327836758100, "dur":3335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681327836761531, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681327836761635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681327836761642, "dur":2120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681327836763854, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681327836764145, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681327836764155, "dur":2406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681327836766680, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1681327836766784, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681327836766789, "dur":2990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":5, "ts":1681327836769874, "dur":1074, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681327836711608, "dur":112, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681327836711720, "dur":5969, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681327836717690, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1681327836718019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681327836724720, "dur":2447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1681327836727264, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681327836727402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681327836727630, "dur":10811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681327836738554, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681327836738643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681327836738649, "dur":3163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681327836741900, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681327836742007, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681327836742011, "dur":3482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681327836745591, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681327836745684, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681327836745690, "dur":4383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681327836750159, "dur":941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681327836751104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681327836751111, "dur":4475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681327836755653, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681327836755782, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681327836755788, "dur":3839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681327836759705, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681327836759773, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681327836759777, "dur":6103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681327836765983, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1681327836766215, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681327836766221, "dur":3409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1681327836769715, "dur":1227, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681327836711644, "dur":82, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681327836711726, "dur":5956, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681327836717685, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1681327836717885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681327836720506, "dur":3097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1681327836723682, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1681327836723857, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681327836724829, "dur":2594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1681327836727513, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1681327836727650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681327836727655, "dur":3313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1681327836731069, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681327836731162, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681327836731168, "dur":2938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681327836734203, "dur":577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681327836734783, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681327836734789, "dur":2834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681327836737730, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681327836737827, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681327836737866, "dur":2343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681327836740316, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681327836740409, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681327836740416, "dur":4280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681327836744825, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681327836744928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681327836744936, "dur":2356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681327836747376, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681327836747483, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681327836747488, "dur":2698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681327836750310, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681327836750671, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681327836750677, "dur":3778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681327836754526, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681327836754698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681327836754703, "dur":3548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681327836758355, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681327836758454, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681327836758460, "dur":2996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681327836761535, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681327836761612, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681327836761617, "dur":3134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681327836764852, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1681327836764950, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681327836764954, "dur":5883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1681327836770904, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1681327836770906, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681327836711710, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681327836711711, "dur":5961, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681327836717680, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1681327836717936, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681327836721088, "dur":3582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1681327836724763, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1681327836724965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681327836724971, "dur":2608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1681327836727670, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1681327836727816, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681327836728455, "dur":9839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1681327836738386, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681327836738487, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681327836738493, "dur":2770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681327836741347, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681327836741415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681327836741421, "dur":3660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681327836745194, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681327836745294, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681327836745301, "dur":3369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681327836748761, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681327836748847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681327836748853, "dur":3355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681327836752334, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681327836752661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681327836752668, "dur":4533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681327836757272, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681327836757378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681327836757384, "dur":4560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681327836762060, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681327836762231, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681327836762238, "dur":3766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681327836766091, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1681327836766186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681327836766193, "dur":3336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1681327836769666, "dur":1280, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681327836711797, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681327836711798, "dur":5888, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681327836717687, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1681327836717901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681327836720588, "dur":3629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1681327836724292, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1681327836724446, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681327836724714, "dur":3168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1681327836727971, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681327836728066, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681327836728678, "dur":2582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681327836731342, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681327836731431, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681327836731437, "dur":2556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681327836734082, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681327836734175, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681327836734181, "dur":5618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681327836739869, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681327836740193, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681327836740199, "dur":4455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681327836744827, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681327836744938, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681327836744944, "dur":2713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681327836747755, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681327836747845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681327836747851, "dur":3828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681327836751759, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681327836752045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681327836752053, "dur":4275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681327836756390, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681327836756450, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681327836756454, "dur":3235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681327836759774, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681327836759876, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681327836759882, "dur":5409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681327836765373, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1681327836765460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681327836765466, "dur":4915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1681327836770476, "dur":485, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681327836711904, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681327836711904, "dur":5766, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681327836717680, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1681327836718034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681327836727058, "dur":1537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1681327836728679, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681327836728777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681327836728855, "dur":2343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681327836731283, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681327836731499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681327836731506, "dur":2618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681327836734216, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681327836734315, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681327836734320, "dur":3540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681327836738540, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681327836738718, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681327836738724, "dur":2214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681327836740994, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681327836741055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681327836741060, "dur":4016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681327836745184, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681327836745286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681327836745293, "dur":2576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681327836747937, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681327836747999, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681327836748003, "dur":3148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681327836751219, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681327836751409, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681327836751432, "dur":4461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681327836755972, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681327836756128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681327836756134, "dur":6670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681327836762898, "dur":635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681327836763536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681327836763543, "dur":2946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681327836766590, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1681327836766695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681327836766701, "dur":3508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1681327836770313, "dur":646, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681327836712041, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681327836712041, "dur":5637, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681327836717681, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1681327836718026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681327836725158, "dur":3038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1681327836728269, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681327836728341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681327836728749, "dur":2394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681327836731229, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681327836731325, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681327836731331, "dur":2507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681327836733938, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681327836734036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681327836734044, "dur":2511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681327836736643, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681327836736761, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681327836736773, "dur":2765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681327836739631, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681327836739723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681327836739756, "dur":3696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681327836743552, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681327836743854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681327836743861, "dur":3163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681327836747109, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681327836747208, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681327836747214, "dur":3112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681327836750432, "dur":661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681327836751096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681327836751104, "dur":4295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681327836755473, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681327836755647, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681327836755652, "dur":3515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681327836759255, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681327836759338, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681327836759345, "dur":3184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681327836762621, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681327836762714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681327836762720, "dur":3170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681327836765973, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1681327836766266, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681327836766272, "dur":3307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":11, "ts":1681327836769677, "dur":1289, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681327836712117, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681327836712117, "dur":5559, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681327836717680, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1681327836717938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681327836721969, "dur":3066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1681327836725135, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1681327836725270, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681327836725277, "dur":2618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":12, "ts":1681327836727995, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681327836728092, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681327836728662, "dur":2467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681327836731215, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681327836731302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681327836731308, "dur":2490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681327836733911, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681327836734060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681327836734095, "dur":2561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681327836736756, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681327836736856, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681327836736862, "dur":1838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681327836738785, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681327836738902, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681327836738907, "dur":2754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681327836741747, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681327836741853, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681327836741859, "dur":3526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681327836745487, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681327836745585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681327836745592, "dur":2825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681327836748510, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681327836748628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681327836748634, "dur":3133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681327836751923, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681327836752210, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681327836752217, "dur":4292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681327836756590, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681327836756675, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681327836756681, "dur":3575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681327836760369, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681327836760462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681327836760469, "dur":2516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681327836763092, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681327836763347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681327836763354, "dur":3094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681327836766553, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1681327836766674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681327836766681, "dur":3521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/bartu/OneDrive/Masast/CoffeStack/Coffee_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1681327836770301, "dur":654, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681327836776284, "dur":2827, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1681327836798925, "dur": 864, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681327836798392, "dur": 1433, "ph": "X", "name": "Write chrome-trace events", "args": {} },
